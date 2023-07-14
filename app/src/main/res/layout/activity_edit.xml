@@ -160,10 +160,12 @@
 
     <androidx.constraintlayout.helper.widget.Layer
         android:id="@+id/birthDateLayer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="207dp"
+        android:layout_height="41dp"
         app:constraint_referenced_ids="birthValueTextView,birthImageView"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="99dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
